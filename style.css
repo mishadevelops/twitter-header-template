@@ -16,17 +16,21 @@
 }
 
 .followButton {
-    background: #E2E8F0;
-    color: #2D3748;
+    background: #2D3748; /* changed to dark tone */
+    color: #E2E8F0; /* contrasting light text */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.9em; /* slightly decreased font-size */
+    font-size: 0.9em;
+    font-weight: bold; /* added bold font */
     border-radius: 25px;
     position: absolute;
     bottom: 20px;
     right: 20px;
     cursor: pointer;
-    padding: 10px; /* added padding to ensure the text doesn’t touch the edges */
-    box-sizing: border-box; /* ensures width includes padding */
-}
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 3px #38B2AC; /* added glow effect */
+    transition: all 0.3s ease; /* smooth transition for hover effect */
+  }
+  
