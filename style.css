@@ -1,0 +1,32 @@
+.header {
+    width: 1500px;
+    height: 500px;
+    background: linear-gradient(120deg, #2D3748, #38B2AC);
+    color: #E2E8F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.followButton {
+    background: #E2E8F0;
+    color: #2D3748;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em; /* slightly decreased font-size */
+    border-radius: 25px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    padding: 10px; /* added padding to ensure the text doesn’t touch the edges */
+    box-sizing: border-box; /* ensures width includes padding */
+}
